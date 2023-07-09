@@ -1,0 +1,2 @@
+[lfs]
+	fetchexclude = checkpoints/*.pt
