@@ -2,7 +2,7 @@
 
 Michał Szachniewicz, Wojciech Kozłowski, Michał Stypułkowski, Maciej Zięba
 
-[[paper](https://arxiv.org/)]
+[[paper](https://arxiv.org/abs/2307.05325)]
 
 ## PointCAM architecture
 
@@ -78,7 +78,7 @@ python scripts/prepare_points_fps.py --dir ModelNet40 --out-dir ModelNet40FPS --
 ```
 
 ### ModelNet40 Few-shot
-Use splits defined in [PointBERT](https://github.com/lulutang0608/Point-BERT/blob/master/DATASET.md), extract to `ModelNET40Fewshot`.
+Use splits defined in [PointBERT](https://github.com/lulutang0608/Point-BERT/blob/master/DATASET.md), extract to `ModelNet40Fewshot`.
 
 
 ## Experiments
@@ -131,5 +131,12 @@ Based mostly on [PointBERT implementation](https://github.com/lulutang0608/Point
 
 ## Citing PointCAM
 ```bibtex
-TODO
+@misc{szachniewicz2023selfsupervised,
+      title={Self-supervised adversarial masking for 3D point cloud representation learning}, 
+      author={Michał Szachniewicz and Wojciech Kozłowski and Michał Stypułkowski and Maciej Zięba},
+      year={2023},
+      eprint={2307.05325},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
